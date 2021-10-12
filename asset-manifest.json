@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tv-maze/crud/static/css/main.a617e044.chunk.css",
+    "main.js": "/tv-maze/crud/static/js/main.80430cba.chunk.js",
+    "main.js.map": "/tv-maze/crud/static/js/main.80430cba.chunk.js.map",
+    "runtime-main.js": "/tv-maze/crud/static/js/runtime-main.e9853ea5.js",
+    "runtime-main.js.map": "/tv-maze/crud/static/js/runtime-main.e9853ea5.js.map",
+    "static/js/2.93bef067.chunk.js": "/tv-maze/crud/static/js/2.93bef067.chunk.js",
+    "static/js/2.93bef067.chunk.js.map": "/tv-maze/crud/static/js/2.93bef067.chunk.js.map",
+    "static/js/3.b1228d1a.chunk.js": "/tv-maze/crud/static/js/3.b1228d1a.chunk.js",
+    "static/js/3.b1228d1a.chunk.js.map": "/tv-maze/crud/static/js/3.b1228d1a.chunk.js.map",
+    "index.html": "/tv-maze/crud/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/tv-maze/crud/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.93bef067.chunk.js.LICENSE.txt": "/tv-maze/crud/static/js/2.93bef067.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e9853ea5.js",
+    "static/js/2.93bef067.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.80430cba.chunk.js"
+  ]
+}
