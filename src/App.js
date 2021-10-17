@@ -1,21 +1,30 @@
-import Register from './Pages/Register';
-import './App.css';
-import LogIn from './Pages/LogIn';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import HomePage from './Pages/HomePage';
-import Protected from './Pages/Protected';
+import Auth from './Pages/Auth';
+import './css/main.css'
+import ProtectedRoute from './components/ProtectedRoute';
+import Dashboard from './Pages/Dashboard';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import MyPostsPage from './Pages/MyPostsPage';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
-
     <div className="App">
+      <ToastContainer />
       <Router basename="/crud/">
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route path="/logIn" component={LogIn} />
-          <Route path="/register" component={Register} />
-          <Route path='/protected' component={Protected} />
-        </Switch>
+        <Nav />
+        <div className='body-main'>
+          <Switch>
+            <Route exact path="/" component={HomePage} />
+            <Route path="/auth" component={Auth} />
+            <ProtectedRoute path='/dashboard' component={Dashboard} />
+            <Route path='/myposts' component={MyPostsPage} />
+          </Switch>
+        </div>
+        <Footer />
       </Router>
     </div>
   );

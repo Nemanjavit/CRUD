@@ -1,0 +1,28 @@
+.footer {
+  background-color: $spaceCadet;
+  color: $carrotOrange;
+
+  &__link {
+    text-decoration: none;
+    color: $carrotOrange;
+    display: block;
+    padding: 15px;
+    height: 100%;
+    &:hover {
+      background-color: $carrotOrange;
+      color: $spaceCadet;
+    }
+  }
+  &__button {
+    background-color: transparent;
+    border: none;
+    padding: 15px;
+    color: $carrotOrange;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $carrotOrange;
+      color: $spaceCadet;
+    }
+  }
+}

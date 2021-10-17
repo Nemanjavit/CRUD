@@ -1,0 +1,22 @@
+.header {
+  background-color: $spaceCadet;
+  color: $carrotOrange;
+
+  .nav {
+    .navigation {
+      display: flex;
+    }
+
+    &__link {
+      text-decoration: none;
+      color: $carrotOrange;
+      display: block;
+      padding: 15px;
+      height: 100%;
+      &:hover {
+        background-color: $carrotOrange;
+        color: $spaceCadet;
+      }
+    }
+  }
+}
